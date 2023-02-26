@@ -10,4 +10,8 @@ export class MessagesComponent {
 
   constructor(public messgeService: MessageService) {}
 
+  clear(): void {
+    this.messgeService.clear();
+  }
+
 }

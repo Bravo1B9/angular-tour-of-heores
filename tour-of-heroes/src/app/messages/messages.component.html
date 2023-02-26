@@ -1,5 +1,5 @@
 <div>
   <h2>Messages</h2>
   <div *ngFor="let message of messgeService.messages">{{ message }}</div>
-  <button>Clear</button>
+  <button (click)="clear()">Clear</button>
 </div>
