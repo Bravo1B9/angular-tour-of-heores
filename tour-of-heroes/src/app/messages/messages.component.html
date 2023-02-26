@@ -1,1 +1,5 @@
-<p>messages works!</p>
+<div>
+  <h2>Messages</h2>
+  <div *ngFor="let message of messgeService.messages">{{ message }}</div>
+  <button>Clear</button>
+</div>
